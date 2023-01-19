@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <style>
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(222, 0, 241, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    }
+
+
+    /* Add styles to the form container */
+    .form-container {
+        margin-top: 200px;
+        max-width: 300px;
+        padding: 10px;
+        background: rgb(194, 232, 12);
+        background: linear-gradient(90deg, rgba(194, 232, 12, 1) 0%, rgba(198, 11, 234, 1) 45%, rgba(249, 255, 0, 1) 100%);
+    }
+
+    /* Full-width input fields */
+    .form-container input[type=text],
+    .form-container input[type=password] {
+        width: 80%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    /* When the inputs get focus, do something */
+    .form-container input[type=text]:focus,
+    .form-container input[type=password]:focus {
+        background-color: lightcyan;
+        outline: none;
+    }
+
+    /* Set a style for the submit/login button */
+    .form-container .btn {
+        background-color: lightgreen;
+        color: black;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 90%;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    }
+
+    /* Add a red background color to the cancel button */
+    .form-container .cancel {
+        background-color: hotpink;
+    }
+
+    /* Add some hover effects to buttons */
+    .form-container .btn:hover,
+    .open-button:hover {
+        opacity: 1;
+    }
+
+    div.a {
+        width: 100px;
+        height: 100px;
+        background-color: honeydew;
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        transform: rotate(0deg);
+        z-index: -1;
+        position: relative;
+        margin-top: -240px;
+        opacity: 0.9;
+        margin-left: 580px;
+    }
+
+    div.b {
+        width: 100px;
+        height: 100px;
+        background-color: honeydew;
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        transform: rotate(0deg);
+        z-index: -1;
+        position: relative;
+        margin-top: 60px;
+        opacity: 0.9;
+        margin-left: 840px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <div class="" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Your Email" name="email" required>
+                <button type="submit" class="btn">send Otp</button>
+                <h5><a href="register.php"> Here to Register?</a></h5>
+            </form>
+        </div>
+    </center>
+
+    </center>
+    <div class="a"></div>
+    </center>
+    </center>
+    <div class="b"></div>
+    </center>
+</body>
+
+</html>
